@@ -10,7 +10,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,11 +28,10 @@ a:hover {
 }
 
 body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 20px;
 }
 
 h1 {
@@ -70,4 +69,29 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.App {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #242424;
+  padding: 50px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select {
+  margin: 20px 10px;
+  padding: 10px;
+  font-size: 1em;
+  background: white;
+  color: #1a1a1a;
+  border-radius: 6px;
+}
+
+.currency-icon {
+  font-size: 50px; /* Set font size */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
